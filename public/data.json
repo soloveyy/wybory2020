@@ -1,0 +1,70 @@
+{
+    "members": [
+        {
+        "number": "1",
+        "name": "DUDA Andrzej Sebastian",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Prezydent_Rzeczypospolitej_Polskiej_Andrzej_Duda.jpg",
+        "age": 48,
+        "location": "Kraków",
+        "profession": "Prezydent Rzeczypospolitej Polskiej"
+        },
+        {
+        "number": "3",
+        "name": "TRUMP Donald",
+        "img": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5babef3da7ea4342a948c024%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1314%26cropX2%3D2845%26cropY1%3D222%26cropY2%3D1752",
+        "age": 74,
+        "location": "Waszyngton",
+        "profession": "Prezydent Stanów Zjednoczonych"
+        },
+        {
+        "number": "4",
+        "name": "SCHWARZ.. Arnold Alois",
+        "img": "https://secretum.pl/media/k2/items/cache/7f2cd38b7681e6e2ef83b5a7a5385264_XL.jpg?t=20141001_064823",
+        "age": 72,
+        "location": "Los Angeles",
+        "profession": "Trener personalny"
+        },
+        {
+        "number": "5",
+        "name": "ANDERSON Pamela",
+        "img": "https://www.the-sun.com/wp-content/uploads/sites/6/2020/01/NINTCHDBPICT000459577426-e1579624521906.jpg",
+        "age": 53,
+        "location": "Marseille",
+        "profession": "Aktorka"
+
+        },
+        {
+            "number": "2",
+            "name": "TRZASKOWSKI Rafał Kazimierz",
+            "img": "https://i.iplsc.com/-/000A4AET2G336OVC-C324-F4.jpg",
+            "age": 48,
+            "location": "Warszawa",
+            "profession": "pracownik samorządowy"
+
+            },
+            {
+            "number": "28",
+            "name": "SUB ZERO",
+            "img": "https://www.popcultureshocktoys.com/content/images/thumbs/0005926_sub-zero-mkx-lifesize-bust_600.jpeg",
+            "age": 28,
+            "location": "Mortal Kombat",
+            "profession": "Fikcyjna postać z gry"
+            },
+            {
+            "number": "7",
+            "name": "RONALDO Cristiano",
+            "img": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec593cc431fb70007482137%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1321%26cropX2%3D3300%26cropY1%3D114%26cropY2%3D2093",
+            "age": 35,
+            "location": "Turyn",
+            "profession": "Instagramerz"
+            },
+            {
+            "number": "77",
+            "name": "KARDASHIAN KIM",
+            "img": "https://gfx.chillizet.pl/var/chillizet/storage/images/news/kim-kardashian-opublikowala-zdjecie-sprzed-21-lat-poznalibyscie-ja-19825/1999355-1-pol-PL/Kim-Kardashian-opublikowala-zdjecie-sprzed-21-lat.-Poznalibyscie-ja_article.jpg",
+            "age": 39,
+            "location": "Los Angeles",
+            "profession": "Instagramerz"
+            }
+    ]
+}

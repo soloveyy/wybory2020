@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import Header from './components/Header';
+import Candidates from './components/characters/Candidates';
 
-function App() {
+
+
+
+const App = () => {
+  const [items, setItems] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
+
+
+
+
+  useEffect(() =>{
+    const fetchItems = async () => {
+      let response = await fetch('./data.json')
+      let data = await response.json() 
+      console.log(data.members[0].name)
+      setItems(data.members)
+      setIsLoading(false)
+    }
+
+    fetchItems()
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="container">
+      <Header/>
+      <Candidates isLoading={isLoading} items={items}/>
     </div>
   );
 }
